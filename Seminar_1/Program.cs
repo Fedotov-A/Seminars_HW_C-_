@@ -34,4 +34,25 @@ int max = 0;
 
  Console.WriteLine($"Это максимальное число: {max}");*/
 
- 
+ // Задача 3: Напишите программу, которая на вход принимает число и выдаёт, 
+ // является ли число чётным (делится ли оно на два без остатка).
+
+/*Console.Write("Введите число: ");
+string str = Console.ReadLine();
+double divider = 2;
+double num1;
+
+if(Double.TryParse(str, out num1) == true)
+{
+    double num = Convert.ToDouble(str);
+    if(num % 2 == 0){
+        Console.WriteLine($"Это число {num1} являтся четным!");
+    } else if(num1 % divider > 0)
+{
+    Console.WriteLine($"Это число {num1} не являтся четным!");
+}
+}
+else
+{
+    Console.WriteLine("Вы ввели не корректное значение");
+}*/
